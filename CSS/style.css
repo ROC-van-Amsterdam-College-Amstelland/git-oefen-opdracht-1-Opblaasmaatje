@@ -1,0 +1,11 @@
+#NavContainer{
+    display: flex;
+    margin: 0 auto;
+    justify-content: center;
+    width: 200px;
+    height: 150px;
+    background-color: black;
+    color: white;
+    border-left: 3px solid red;
+    border-bottom: 4px solid red;
+}
