@@ -26,7 +26,15 @@ header{
     text-align: center;
     display: inline-block;
     line-height: 40px;
+    border-top-left-radius: 5px;
+    border-top-right-radius: 5px;
 }
+
+.NavItem:hover{
+    background: orange;
+}
+
+
 
 html{
     height: 100%;
@@ -46,7 +54,7 @@ footer{
 
 .FooterItem{
     height: 75px;
-    width: 100px;
+    width: 200px;
     text-align: center;
     list-style-type: none;
     background-color: white;
@@ -85,4 +93,17 @@ h2{
     font-family: Arial, Helvetica, sans-serif;
     flex-wrap: wrap;
     text-align: center;
+}
+
+.MainFotoItem{
+    height: 60px;
+    width: 110px;
+    background-color: grey;
+    color: black;
+    display: inline-block;
+}
+
+a{
+    color: white;
+    text-decoration: none;
 }
