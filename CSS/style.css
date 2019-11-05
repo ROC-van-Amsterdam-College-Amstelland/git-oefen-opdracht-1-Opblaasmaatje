@@ -50,7 +50,6 @@ header{
     justify-content: center;
     margin: 0 auto;
     display: flex;
-    flex-direction: column;
     border: solid 3px white;
     margin: 4px;
     display: inline-block;
@@ -145,4 +144,81 @@ footer{
     display: inline-block;
     color: white;
     font-family: Arial, Helvetica, sans-serif;
+}
+
+.Vaardigheid1{
+    height: 60px;
+    width: 350px;
+    border-top: 3px white solid;
+    border-bottom: 3px white solid;
+    border-left: 3px white solid;
+    background-color: green;
+}
+
+.Vaardigheid11{
+    height: 60px;
+    width: 550px;
+    border-top: 3px white solid;
+    border-bottom: 3px white solid;
+    border-right: 3px white solid;
+    background-color: red;
+}
+
+.Heel1{
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: row;
+    justify-content: center;
+    margin-bottom: 60px;
+}
+
+.Vaardigheid2{
+    height: 60px;
+    width: 300px;
+    border-top: 3px white solid;
+    border-bottom: 3px white solid;
+    border-left: 3px white solid;
+    background-color: green;
+}
+
+.Vaardigheid22{
+    height: 60px;
+    width: 600px;
+    border-top: 3px white solid;
+    border-bottom: 3px white solid;
+    border-right: 3px white solid;
+    background-color: red;
+}
+
+.Heel2{
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: row;
+    justify-content: center;
+    margin-bottom: 60px;
+}
+.Vaardigheid3{
+    height: 60px;
+    width: 600px;
+    border-top: 3px white solid;
+    border-bottom: 3px white solid;
+    border-left: 3px white solid;
+    background-color: green;
+}
+
+.Vaardigheid33{
+    height: 60px;
+    width: 300px;
+    border-top: 3px white solid;
+    border-bottom: 3px white solid;
+    border-right: 3px white solid;
+    background-color: red;
+}
+
+.Heel3{
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: row;
+    justify-content: center;
+    margin-bottom: 60px;
 }
