@@ -6,7 +6,7 @@ function changeImage() {
 
 function changeImage2() {
     document.getElementById("WelkomFoto").src = "Images/Japan_Hobby.jpeg"
-    document.getElementById("Inhoud").innerHTML = "Ik ben een internationale student geweest in Japan, Hierdoor houd ik van alles wat met Japan te maken heeft en kan ik ook JLPT niveau 4 Japans."
+    document.getElementById("Inhoud").innerHTML = "Ik ben een internationale student geweest in Japan, Hierdoor houd ik van alles wat met Japan te maken heeft en kan ik ook JLPT niveau 4 Japans. De foto hierboven is van mij en mijn gastbroertje Yuuto."
     document.getElementById("Titel").innerHTML = "Japan"
 }
 
