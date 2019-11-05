@@ -282,3 +282,32 @@ footer{
     margin: 10px;
     background-color: #333333;
 }
+
+.Projecten{
+    height: 500px;
+    width: 550px;
+    border-bottom: solid white 3px;
+    background-color: #333333;
+    display: flex;
+    justify-content: center;
+    margin: 10px auto;
+    flex-direction: column;
+}
+
+#ProjectFoto{
+    height: 60%;
+    width: 60%;
+    margin: 3px;
+    margin: 0 auto;
+}
+
+.tekst{
+    color: white;
+    text-align: center;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.ContactTekst{
+    color: white;
+    font-family: Arial, Helvetica, sans-serif;
+}
