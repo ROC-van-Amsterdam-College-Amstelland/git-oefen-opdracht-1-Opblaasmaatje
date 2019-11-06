@@ -10,6 +10,9 @@
 </head>
 <body>
     <header>
+        <div class="Naam">
+            <p class="Naam1">Joris ter Wolbeek</p>
+        </div>
         <div class="NavContainer">
             <nav>
                 <ul>
@@ -23,16 +26,16 @@
             </nav>
         </div>
     </header>
-    <div class="MainContainer">
+    <div class="MainContainer" id="KleurLike">
         <main>
-            <h1 id="Email">Email Joris.terwolbeek@outlook.com</h1>
+            <h1><a href="mailto:joris.terwolbeek@outlook.com" class="Email">Email Joris.terwolbeek@outlook.com</a></h1>
             <h1> Tel. 0618192410</h1>
             <p class="ContactTekst">Dit is mijn email en telefoonnummer, als u contact met mij wilt openemen kan dit via de hierboven gegeven gegevens.</p>
             <div class="Duim">
-                <div class="DuimHoog">
+                <div class="DuimHoog" onclick="Like()">
                     <img src="Images/DuimHoog.png" id="Duim">
                 </div>
-                <div class="DuimLaag">
+                <div class="DuimLaag" onclick="DisLike()">
                     <img src="Images/DuimLaag.png" id="Duim">
                 </div> 
             </div>

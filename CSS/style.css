@@ -77,6 +77,13 @@ h1{
     display: block;
 }
 
+.MainFotoProject{
+    display: flex;
+    justify-content: center;
+    margin: 0 auto;
+    
+}
+
 .MainFotoItem{
     width: 110px;
     height: 50px;
@@ -145,6 +152,15 @@ footer{
     display: flex;
     justify-content: center;
     flex-direction: row;
+}
+
+.Email{
+    text-decoration: none;
+    color: white;
+}
+
+.Email:hover{
+    color: #888888;
 }
 
 #EmailContent{
@@ -294,7 +310,6 @@ footer{
 }
 
 .Projecten{
-    height: 500px;
     width: 550px;
     border-bottom: solid white 3px;
     background-color: #333333;
@@ -352,3 +367,12 @@ footer{
 .DuimLaag:hover{
     border-bottom: rgb(250, 6, 6) 5px solid;
 }
+
+.Naam{
+    display: flex;
+    text-align: center;
+    width: 100%;
+    justify-content: center;
+    height: 30px;
+}
+
