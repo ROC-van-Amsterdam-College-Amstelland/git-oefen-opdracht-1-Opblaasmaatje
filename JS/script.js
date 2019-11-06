@@ -15,3 +15,15 @@ function changeImage3() {
     document.getElementById("Inhoud").innerHTML = "Een van mijn favourite hobby's is Magic The Gathering, een Kaartspel waar je speelt als een tovernaar en krachte spreuken gebruikt om je tegenstander te verslaan."
     document.getElementById("Titel").innerHTML = "Magic The Gathering"
 }
+
+window.onload = setInterval(clock,1000);
+    function clock()
+    {
+        var d = new Date();
+        var date = d.getDate();
+        var year = d.getFullYear();
+        var month = d.getMonth();
+        var monthArr = ["January", "February","March", "April", "May", "June", "July", "August", "September", "October", "November","December"];
+        month = monthArr[month];
+        document.getElementById("date").innerHTML=date+" "+month+", "+year;
+    }

@@ -104,14 +104,15 @@ h1{
     text-align: center;
 }
 
-footer{
+.FooterContainer{
     height: 100px;
     width: 100%;
     background-color: lightgrey;
     display: flex;
     justify-content: center;
     margin: 0 auto;
-    flex-direction: row-reverse;
+    flex-direction: row;
+    margin-top: 10px;
 }
 
 .NavFooter{
@@ -128,13 +129,22 @@ footer{
     color: black;
     border: solid 3px black;
     margin: 3px;
-    display: inline-block;
     line-height: 40px;
     box-shadow: 0px 5px 10px;
+    color: black;
+    text-decoration: none;
 }
 
 .FooterItem:hover{
     background-color: #999999;
+}
+
+footer{
+    height: 100%;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    flex-direction: row;
 }
 
 #EmailContent{
@@ -310,4 +320,35 @@ footer{
 .ContactTekst{
     color: white;
     font-family: Arial, Helvetica, sans-serif;
+}
+
+#date{
+    all: initial;
+    font-family: Arial, Helvetica, sans-serif;
+}
+.Duim{
+    display: flex;
+    justify-content: center;
+    flex-direction: row;
+}
+
+.DuimHoog, .DuimLaag{
+    height: 100px;
+    width: 100px;
+    background: grey;
+    border-bottom: white solid 5px;
+    margin: 5px;
+
+}
+#Duim{
+    height: 100%;
+    width: 100%;
+}
+
+.DuimHoog:hover{
+    border-bottom: rgb(5, 235, 24) 5px solid;
+}
+
+.DuimLaag:hover{
+    border-bottom: rgb(250, 6, 6) 5px solid;
 }
